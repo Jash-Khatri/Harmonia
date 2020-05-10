@@ -24,16 +24,27 @@ https://drive.google.com/drive/folders/1sid4JR1GmnBQ1VAN2pIcYM9sAXdnrHC0?usp=sha
 Following is one of the sample example:
 
 7 5
+
 1 3 209 150 23
+
 2 4 283 241 45
+
 4 5 121 264 54
+
 5 4 184 190 32
+
 6 23 45 323 23
+
 7 25 65 32 13
+
 9 32 34 46 45
+
 3
+
 2 4 10 1 8 150 6 9 1 5
+
 3 3 21 4 987 18 3 143 6 2 100
+
 1 3 6 21 18
 
 # How to run the code?
