@@ -13,9 +13,16 @@ Google Colab
 # Features Supported
 Current implemention support the following operations on the database
 Markup : 
-* insertions
+* Insertions
 * Search
 * Range Queries
 * Updates
+
+# Testing
+The link given below contains some of the small and large datasets/testcases on which you can test the code.
+https://drive.google.com/drive/folders/1sid4JR1GmnBQ1VAN2pIcYM9sAXdnrHC0?usp=sharing
+
+# How to run the code?
+
 
 
