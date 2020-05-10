@@ -22,11 +22,10 @@ The link given below contains some of the small and large datasets/testcases on 
 https://drive.google.com/drive/folders/1sid4JR1GmnBQ1VAN2pIcYM9sAXdnrHC0?usp=sharing
 
 # How to run the code?
-**
-nvcc -O3 -Xcompiler -fopenmp -Igomp filename.cu
 
-./a.out input.txt A
-**
+**nvcc -O3 -Xcompiler -fopenmp -Igomp filename.cu**
+
+**./a.out input.txt A**
 
 * Compiler the code with given flags to get the best performance.
 * At command Line there are two arguments that has to be provided
