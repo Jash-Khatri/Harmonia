@@ -12,7 +12,7 @@ Google Colab
 
 # Features Supported
 Current implemention support the following operations on the database
-*insertions
+Markup : *insertions
 *Search
 *Range Queries
 *Updates
