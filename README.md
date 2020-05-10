@@ -27,7 +27,7 @@ https://drive.google.com/drive/folders/1sid4JR1GmnBQ1VAN2pIcYM9sAXdnrHC0?usp=sha
 
 **./a.out input.txt A**
 
-* Compiler the code with given flags to get the best performance.
+* Compile the code with given flags to get the best performance.
 * At command Line there are two arguments that has to be provided
   1. Input file path
   2. Mode i.e 'A' or 'B'. In 'B' mode you will be able to see the visual output of performing various operations on the database and in mode 'A' you will be able to see the Time taken(performance) to execute each batch of operation. 
