@@ -17,9 +17,24 @@ Current implemention support the following operations on the database
 * Range Queries
 * Updates
 
-# Testing
+# Testing and Sample Example
 The link given below contains some of the small and large datasets/testcases on which you can test the code.
 https://drive.google.com/drive/folders/1sid4JR1GmnBQ1VAN2pIcYM9sAXdnrHC0?usp=sharing
+
+Following is one of the sample example:
+
+7 5
+1 3 209 150 23
+2 4 283 241 45
+4 5 121 264 54
+5 4 184 190 32
+6 23 45 323 23
+7 25 65 32 13
+9 32 34 46 45
+3
+2 4 10 1 8 150 6 9 1 5
+3 3 21 4 987 18 3 143 6 2 100
+1 3 6 21 18
 
 # How to run the code?
 
@@ -32,4 +47,3 @@ https://drive.google.com/drive/folders/1sid4JR1GmnBQ1VAN2pIcYM9sAXdnrHC0?usp=sha
   1. Input file path
   2. Mode i.e 'A' or 'B'. In 'B' mode you will be able to see the visual output of performing various operations on the database and in mode 'A' you will be able to see the Time taken(performance) to execute each batch of operation. 
 
-# Sample Example
