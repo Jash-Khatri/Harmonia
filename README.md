@@ -11,8 +11,7 @@ which use B+tree as index data structure. To enhance the performance of B+ tree 
 Google Colab
 
 # Features Supported
-Current implemention support the following operations on the database
-Markup : 
+Current implemention support the following operations on the database 
 * Insertions
 * Search
 * Range Queries
