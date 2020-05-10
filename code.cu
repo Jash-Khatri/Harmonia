@@ -1,4 +1,3 @@
-%%cuda --name filename.cu
 #include<cuda.h>
 #include<stdio.h>
 #include<omp.h>
