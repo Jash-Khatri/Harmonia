@@ -5,10 +5,20 @@ https://dl.acm.org/doi/abs/10.1145/3293883.3295704
 # Motivation
 B+tree is one of the most important data structures, which has been widely used in different fields such as web
 indexing, database, data mining and file system but as the data size increase it puts tremendous pressures on applications
-which use B+tree as index data structure. To enhance the performance of B+ tree on GPUs we use novel B+ tree data-structure which bridges the several gaps between the characteristics of GPU and B+ tree.
+which use B+tree as index data structure. Concurrent B+tree queries involve many global memory accesses and different divergences, 
+which mismatch with GPU features. Hence, in order to get best out of GPUs authors have designed novel B+ tree data-structure which bridges the several gaps 
+between the characteristics of GPU and B+ tree.
 
-# Bulit in
+# B+ Trees
+A B+ tree is an m-ary tree with a variable but often large number of children per node. A B+ tree consists of a root, internal nodes and leaves.
+For more info please refer to the following link:
+https://en.wikipedia.org/wiki/B%2B_tree
+
+# Built in
 Google Colab
+
+# Technology used
+C/C++ and CUDA
 
 # Features Supported
 Current implemention support the following operations on the database 
@@ -20,6 +30,7 @@ Current implemention support the following operations on the database
 # Testing and Sample Example
 The link given below contains some of the small and large datasets/testcases on which you can test the code.
 https://drive.google.com/drive/folders/1sid4JR1GmnBQ1VAN2pIcYM9sAXdnrHC0?usp=sharing
+explain.pdf contains the grapical results showing the time taken by the code on some arbitary GPUs on the above testcases.
 
 # How to run the code?
 
@@ -31,4 +42,10 @@ https://drive.google.com/drive/folders/1sid4JR1GmnBQ1VAN2pIcYM9sAXdnrHC0?usp=sha
 * At command Line there are two arguments that has to be provided
   1. Input file path
   2. Mode i.e 'A' or 'B'. In 'B' mode you will be able to see the visual output of performing various operations on the database and in mode 'A' you will be able to see the Time taken(performance) to execute each batch of operation. 
+
+# Example
+
+** nvcc -O3 -Xcomplier -fopenmp -Igomp code.cu**
+
+** ./a.out input1.txt B**
 
