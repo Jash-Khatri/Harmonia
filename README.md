@@ -22,10 +22,10 @@ C/C++ and CUDA
 
 # Features Supported
 Current implemention support the following operations on the database 
-* Insertions
-* Search
-* Range Queries
-* Updates
+* Insertions - Add the Tuple to the Database.
+* Search - Find the particular Tuples in the Database with given Key.
+* Range Queries - Find all the Tuples with key values falling in particular range.
+* Updates - Update the value of particular Tuples specified by key from old value to new value.
 
 # Testing and Sample Example
 The link given below contains some of the small and large datasets/testcases on which you can test the code.
